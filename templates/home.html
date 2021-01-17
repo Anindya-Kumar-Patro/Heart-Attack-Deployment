@@ -1,0 +1,26 @@
+<html>
+    <body bgcolor="orange">
+        <center>
+            <form method="POST" action="{{url_for('predict')}}"> 
+                <h1>Heart Disease Prediction</h1></br>
+               <b>
+                Age :  <input type="text", name='a', placeholder="Enter Age"> <br><br>
+                Sex :  <input type="text", name='b', placeholder="Enter Sex"> <br><br>
+                Chest Pain :  <input type="text", name='c', placeholder="Enter Chest Pain"> <br><br>
+                Resting Blood Pressure :  <input type="text", name='d', placeholder="enter Trestbps"> <br><br>
+                Cholestrol :  <input type="text", name='e', placeholder="enter Cholestrol"> <br><br>
+                Fasting Blood Sugar(>120mg/dl) :  <input type="text", name='f', placeholder="enter Fasting Blood Sugar"> <br><br>
+                Resting electrocardiographic results :  <input type="text", name='g', placeholder="enter Resting ECG"> <br><br>
+                maximum heart rate :  <input type="text", name='h', placeholder="enter thalach"> <br><br>
+                exercise induced angina :  <input type="text", name='i', placeholder="enter anigma"> <br><br>
+                Old peak :  <input type="text", name='j', placeholder="enter Old Peak"> <br><br>
+                Slope :  <input type="text", name='k', placeholder="enter Slope"> <br><br>
+                CA :  <input type="text", name='l', placeholder="enter CA"> <br><br>
+                Thal :  <input type="text", name='m', placeholder="enter thal"> <br><br>
+
+                <input type="submit" , value = "predict">
+               </b>
+            </form>
+        </center>
+    </body>
+</html>
